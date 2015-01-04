@@ -1,6 +1,12 @@
-author = "sircatsmeowsalot"
-description = "see theme title"
-license = "MIT"
 name = "poopshow"
-source_repo = ""
-tags = ["tags", "categories"]
+description = "the theme formerly know as s***show"
+license = "MIT"
+licenselink = "http://opensource.org/licenses/MIT"
+homepage = "http://github.com/esell/poopshow"
+source_repo = "http://github.com/esell/poopshow"
+tags = ["blog"]
+features = ["blog", ]
+
+[author]
+    name = "esell"
+    homepage = "http://esell.github.io"
