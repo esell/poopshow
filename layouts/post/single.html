@@ -1,4 +1,5 @@
 {{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseUrl }}
 
 	<div class="row">
     	<div class="eight columns">
@@ -9,7 +10,7 @@
     		<span style="font-size:small;">
     			categories:<br>
     			{{ range .Params.categories }}
-    				<a style="font-size:small; text-decoration: none;" href="/categories/{{ . | urlize }}">{{ . }}</a>
+				<a style="font-size:small; text-decoration: none;" href="{{ $baseurl}}/categories/{{ . | urlize }}">{{ . }}</a>
     			{{ end }}
     		</span>
     	</div>
