@@ -6,6 +6,7 @@ homepage = "http://github.com/esell/poopshow"
 source_repo = "http://github.com/esell/poopshow"
 tags = ["blog"]
 features = ["blog", ]
+min_version = 0.12
 
 [author]
     name = "esell"
