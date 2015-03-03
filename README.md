@@ -2,15 +2,24 @@ None of the existing hugo themes fit what I wanted so I created my own. I'm horr
 
 Skeleton is the CSS framework used.
 
-This theme will not work out of the box, there are a few parameters you'll have to add/set in your main hugo config file:
+# Configuration
+This theme will not work out (well, it won't work correctly) of the box, there are a few parameters you'll have to add/set in your main hugo config file.
 
-````
+**config.toml**
+
+``` toml
+baseurl = "http://hugo.spf13.com/"
+title = "Hugo Themes"
+author = "Steve Francia"
+copyright = "Copyright (c) 2008 - 2014, Steve Francia; all rights reserved."
+canonifyurls = true
+
 [params]
-    tagline = "this is a tagline..."
-    headerimg = "toprow2.png"
-    githubUrl = "http://github.com/esell"
-````
+	headerimg = "your header image, this should live in static/img/"
+	blogHeader = "HTMLized <b>blog</b> header"
+    tagline = "shows up next to your title"
+    githubUrl = "your Github URL"
+    contactEmail = "email address to use with the contact link"
+```
 
-The "headerimg" will be the name of a file located in static/img/
-
-Additionally you will probably want to edit layouts/partials/header.html so that the "about" and "contact" links point to where you want them to go. While you are in there update the header text to whatever you want.
+Additionally you will probably want to edit layouts/partials/header.html so that the "about" link points to where you want it to go.   
