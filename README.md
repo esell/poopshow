@@ -1,9 +1,9 @@
-None of the existing hugo themes fit what I wanted so I created my own. I'm horrible at front-end stuff and usually stay away from it so keep that in mind if you plan on using this.
-
-Skeleton is the CSS framework used.
+The theme formerly know as s\*\*\*show, re-branded to be more family friendly.  
+None of the existing hugo themes fit what I wanted so I created my own. I feel this is a very lightweight theme without being super boring.  
+This theme uses the [Skeleton CSS framework](http://getskeleton.com/)
 
 # Configuration
-This theme will not work out (well, it won't work correctly) of the box, there are a few parameters you'll have to add/set in your main hugo config file.
+This theme will not work (well, it won't work correctly) out of the box, there are a few parameters you'll have to add/set in your main hugo config file.
 
 **config.toml**
 
@@ -20,6 +20,8 @@ canonifyurls = true
     tagline = "shows up next to your title"
     githubUrl = "your Github URL"
     contactEmail = "email address to use with the contact link"
+	aboutLink = "relative path to your about page"
 ```
 
-Additionally you will probably want to edit layouts/partials/header.html so that the "about" link points to where you want it to go.   
+# Demo
+You can see a live version of this template at http://esheavyindustries.com
