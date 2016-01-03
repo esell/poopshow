@@ -1,3 +1,7 @@
+# NOTE
+If you like this theme you should upgrade to [rocktopus](https://github.com/esell/rocktopus). It's visually pretty close but has some new features and is a bit easier to use/configure.
+
+
 The theme formerly know as s\*\*\*show, re-branded to be more family friendly.  
 None of the existing hugo themes fit what I wanted so I created my own. I feel this is a very lightweight theme without being super boring.  
 This theme uses the [Skeleton CSS framework](http://getskeleton.com/)
